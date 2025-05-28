@@ -1,0 +1,73 @@
+<div class="wrapper">
+	<div class="credit-card" id="card">
+		<div class="card-front">
+			<div class="branding">
+				<img src="https://sg20prueba.opensayges.com/vub/pres/salta.png" class="chip-img" />
+				<img src="https://sayges20.sayges.com/vub/img/logo/sayges.png" class="visa-logo" />
+			</div>
+			<div class="card-number">
+				<div>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+				</div>
+				<div>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+				</div>
+				<div>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+				</div>
+				<div>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+					<span class="card-number-display">_</span>
+				</div>
+			</div>
+			<div class="details">
+				<div>
+					<span>Titular</span>
+					<span id="card-holder-name">Nombre</span>
+				</div>
+				<div>
+					<span>Vence</span>
+					<span id="validity">06/28</span>
+				</div>
+			</div>
+		</div>
+		<div class="card-back">
+			<div class="black-strip"></div>
+			<div class="white-strip">
+				<span>CVV</span>
+				<div id="cvv-display"></div>
+			</div>
+			<img src="https://sayges20.sayges.com/vub/img/logo/sayges.png" class="visa-logo" />
+		</div>
+	</div>
+	<form>
+		<label for="card-number">Numero Tarjeta</label>
+		<input type="number" id="card-number" placeholder="1234123412341234" />
+
+		<label for="card-holder">Titular:</label>
+		<input type="text" id="card-name-input" placeholder="Nombre completo" />
+
+		<div class="date-cvv">
+			<div>
+				<label for="validity">Vence en:</label>
+				<input type="date" id="validity-input" />
+			</div>
+			<div>
+				<label for="cvv">CVV:</label>
+				<input type="number" id="cvv" placeholder="***" />
+			</div>
+		</div>
+	</form>
+</div>
+<!--  Realizado por Daniel Videla Analista Sayges -->
