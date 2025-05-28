@@ -4,7 +4,20 @@
   <meta charset="UTF-8">
   <title>PAGOS SAYGES PRUEBA</title>
   <link rel="stylesheet" href="./style.css">
-
+ <style>
+    #btnImprimir {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #btnImprimir:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -79,6 +92,7 @@
 			</div>
 		</div>
 	</form>
+	 <button id="btnImprimir" onclick="window.print()">Imprimir en PDF para Adjuntar a el expediente</button>
 </div>
 <!-- partial Realizado por Daniel Videla Analista Sayges -->
   <script  src="./script.js"></script>
